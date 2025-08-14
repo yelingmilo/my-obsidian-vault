@@ -1,0 +1,24 @@
+# 忽略操作系统自动生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略Obsidian的缓存文件
+.obsidiancache
+
+# 忽略特定设备的工作区状态，这是避免冲突的关键
+# 这是你本次操作的核心目标
+.obsidianworkspace.json
+.obsidianworkspaces.json
+.obsidianworkspace-mobile.json
+
+# 忽略其他不建议同步的文件
+.obsidiandaily-notes.json
+.obsidianfacets.json
+.obsidianstarred.json
+
+# 忽略插件的缓存和数据文件 (可选，但推荐)
+# .obsidianpluginssome-plugindata.json
+.obsidianpluginsrecent-files-obsidiandata.json
+
+# 忽略垃圾箱文件夹
+.trash
