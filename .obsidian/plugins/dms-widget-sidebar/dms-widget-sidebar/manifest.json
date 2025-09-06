@@ -1,0 +1,11 @@
+{
+	"id": "widget-sidebar",
+	"name": "Widget Sidebar",
+	"version": "1.17.1",
+	"minAppVersion": "0.15.0",
+	"description": "A sidebar widget system.",
+	"author": "稻米鼠",
+	"authorUrl": "https://zji.me",
+	"fundingUrl": "https://afdian.com/a/daomishu",
+	"isDesktopOnly": false
+}

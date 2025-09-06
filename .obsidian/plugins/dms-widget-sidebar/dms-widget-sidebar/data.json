@@ -1,0 +1,38 @@
+{
+  "configVersion": 2,
+  "global": {
+    "sidebarStyle": "card"
+  },
+  "sidebars": {
+    "default": {
+      "title": "默认",
+      "viewType": "default",
+      "widgets": [
+        {
+          "title": "时间进度",
+          "type": "time_progress",
+          "style": "default",
+          "code": ""
+        },
+        {
+          "title": "Widget-2",
+          "type": "battery_status",
+          "style": "default",
+          "code": ""
+        },
+        {
+          "title": "Widget-3",
+          "type": "year_points",
+          "style": "card",
+          "code": ""
+        },
+        {
+          "title": "Widget-4",
+          "type": "week_calendar",
+          "style": "card",
+          "code": ""
+        }
+      ]
+    }
+  }
+}
