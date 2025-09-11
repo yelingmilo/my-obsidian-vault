@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "InBox/多频率波.md",
+                "file": "InBox/多光阱势场推导.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "多频率波"
+              "title": "多光阱势场推导"
             }
           }
         ]
@@ -180,7 +180,7 @@
   },
   "active": "710f5887563574a2",
   "lastOpenFiles": [
-    "InBox/多频率波.md",
+    "InBox/多光阱势场推导.md",
     "Knowlege/code/markdown/markdown语法表.md",
     "Knowlege/code/markdown",
     "Knowlege/code",
