@@ -1,0 +1,19 @@
+{
+  "templates": [
+    {
+      "group": "Literature",
+      "template": "10_Literature/_templates/literature_note.md",
+      "automatic": true,
+      "trigger": "manual"
+    }
+  ],
+  "libraryPaths": {
+    "Literature": "10_Literature"
+  },
+  "settings": {
+    "pdfAnnotationColor": "#ffd700",
+    "includeYAML": true,
+    "includeHighlights": true,
+    "includeNotes": true
+  }
+}

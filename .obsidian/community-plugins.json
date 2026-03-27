@@ -1,4 +1,8 @@
 [
   "obsidian-git",
-  "obsidian-livesync"
+  "obsidian-excalidraw-plugin",
+  "dataview",
+  "obsidian-zotero-desktop-connector",
+  "obsidian-shellcommands",
+  "obsidian-kanban"
 ]
