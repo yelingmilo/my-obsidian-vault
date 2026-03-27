@@ -11,10 +11,14 @@
             "id": "6da9cdf47e6d3e4c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "10_Literature/_templates/literature_note.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "literature_note"
             }
           }
         ]

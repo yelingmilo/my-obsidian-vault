@@ -1,0 +1,39 @@
+# 胶体粒子 Lieb 晶格模拟参数
+
+# 物理参数
+particle:
+  diameter: 2.0e-6        # 粒子直径 (m)
+  mass: 4.19e-15          # 粒子质量 (kg) = 4/3 * pi * r^3 * 密度(密度~1000 kg/m^3)
+  
+# 溶液参数 (CMC 0.75 mg/mL)
+fluid:
+  viscosity: 5.0e-3       # 粘度 (Pa·s)
+  temperature: 300        # 温度 (K)
+  density: 1000           # 溶液密度 (kg/m^3)
+  
+# 光阱参数
+trap:
+  stiffness: 0.5e-6       # 光阱刚度 (N/m) = 0.5 pN/nm
+  spacing: 3.0e-6          # 光阱间距 (m)
+  radius: 1.5e-6          # 光阱特征半径 (m)
+  depth: 10.0             # 光阱深度 (k_B T)
+  
+# Lennard-Jones 参数
+lj:
+  sigma: 2.0e-6           # LJ sigma (m) = 粒子直径
+  epsilon: 10.0           # LJ epsilon (k_B T)
+  
+# 模拟参数
+simulation:
+  dt: 1.0e-6              # 时间步长 (s)
+  total_time: 5.0          # 总物理时长 (s)
+  equilibration: 1.0      # 弛豫时间 (s)
+  fps: 30                 # 视频帧率
+  seed: 42                # 随机种子
+  
+# 输出路径
+output:
+  base_dir: /data/milo/oc/simulation/260327
+  trajectory: trajectory.npz
+  eigenmodes: eigenmodes.npz
+  video: simulation.mp4
