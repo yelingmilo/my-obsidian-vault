@@ -22,3 +22,19 @@ Thumbs.db
 
 # 忽略垃圾箱文件夹
 .trash
+
+# 忽略大型媒体文件（视频）
+*.mp4
+*.mov
+*.avi
+
+# 忽略压缩包
+*.zip
+*.tar.gz
+
+# 忽略附件目录中的大型文件
+99_Attachments/
+!.gitkeep
+
+# 忽略 Base 数据库文件
+*.base
